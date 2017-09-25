@@ -1,0 +1,54 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+body {
+    padding-top: 70px;
+    background-color: rgba(0, 0, 0, 0.3)
+}
+
+table {
+  margin-top: 10px;
+}
+
+/* Customize container */
+@media (min-width: 600px) {
+    .container {
+        max-width: 768px;
+    }
+}
+/* Customize container */
+@media (min-width: 800px) {
+    .container-fluid {
+        max-width: 1024px;
+    }
+}
+
+img {
+    margin-top: -20px;
+    width: 140px;
+    height: 140px;
+}
+
+.navbar {
+    background-color: #8B0000;
+}
+
+.jumbotron {
+    background-image: url(assets/images/stock.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #8B0000;   
+    height: 500px;
+}
+
+.jumbotron div {
+    background-color: rgba(134, 108, 108, 0.5)
+}
+
+.ng-valid[required], .ng-valid.required  {
+    border-left: 5px solid #42A948; /* green */
+  }
+  
+  .ng-invalid:not(form)  {
+    border-left: 5px solid #a94442; /* red */
+  }
